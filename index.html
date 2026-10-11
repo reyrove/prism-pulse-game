@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/svg+xml" href="fav.svg">
+  <title>PRISM PULSE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <canvas id="game"></canvas>
+
+  <div class="hud">
+    <div class="hud-top">
+      <div class="stat">
+        <div class="stat-label">Score</div>
+        <div class="stat-value" id="score">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Streak</div>
+        <div class="stat-value" id="streak">0</div>
+      </div>
+      <div class="stat">
+        <div class="stat-label">Best</div>
+        <div class="stat-value" id="best">0</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Start -->
+  <div class="screen" id="startScreen">
+    <div class="title">PRISM</div>
+    <div class="title" style="margin-top:-20px">PULSE</div>
+    <div class="subtitle">Rotate · Absorb · Survive</div>
+    <div class="instructions">
+      A shield orbits your core.<br>
+      Absorb orbs that match your shield's color<br>
+      <span style="opacity:0.6;font-size:13px">
+        <span class="color-dot" style="background:#ff2e97"></span>
+        <span class="color-dot" style="background:#ffd500"></span>
+        <span class="color-dot" style="background:#6ee7ff"></span>
+        <span class="color-dot" style="background:#a855f7"></span>
+      </span>
+      <br>
+      Move the <span class="key">MOUSE</span> around the core to rotate your shield<br>
+      Or hold <span class="key">←</span> <span class="key">→</span> / <span class="key">A</span> <span class="key">D</span><br>
+      Miss a matching orb or touch the wrong color — game over.
+    </div>
+    <button class="btn" id="startBtn">Play</button>
+  </div>
+
+  <!-- Game Over -->
+  <div class="screen hidden" id="gameOverScreen">
+    <div class="final-label">Final Score</div>
+    <div class="final-score" id="finalScore">0</div>
+    <div class="new-best hidden" id="newBest">★ New Best ★</div>
+    <button class="btn" id="restartBtn">Retry</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
