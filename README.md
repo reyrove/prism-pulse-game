@@ -197,8 +197,8 @@ Built as a self-contained arcade experiment in vanilla JavaScript. Inspired by c
 
 ## 🔗 Links
 
-- **Repository:** [github.com/your-username/prism-pulse-game](https://github.com/reyrove/prism-pulse-game)
-- **Play Online:** [your-username.github.io/prism-pulse-game](https://reyrove.github.io/prism-pulse-game/)
+- **Repository:** [github.com/reyrove/prism-pulse-game](https://github.com/reyrove/prism-pulse-game)
+- **Play Online:** [reyrove.github.io/prism-pulse-game](https://reyrove.github.io/prism-pulse-game/)
 - **Report a Bug:** [Issues](https://github.com/reyrove/prism-pulse-game/issues)
 - **Request a Feature:** [Issues](https://github.com/reyrove/prism-pulse-game/issues)
 
